@@ -1,0 +1,11 @@
+server:
+  port: 9400
+spring:
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: 106.15.188.15:9300
+      repositories:
+        enabled: false
+
+
